@@ -37,7 +37,7 @@ class _FileViewPageState extends State<FileViewPage> {
                 return null;
               },
               onCustomX5StatusBuilder: (_, X5Status status) {
-                if (status == ViewStatus.LOADING) {
+                if (status == X5Status.DOWNLOADING) {
                   /// 加载中的状态布局，红色背景一闪而过。
                   return Container(color: Colors.red);
                 }

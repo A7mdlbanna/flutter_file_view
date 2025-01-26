@@ -48,6 +48,7 @@ analyzer:
     ### Local flutter/plugins changes ###
     # Allow null checks for as long as mixed mode is officially supported.
     always_require_non_null_named_parameters: false # not needed with nnbd
+    lines_longer_than_80_chars: ignore
   exclude:
     # Ignore generated files
 
